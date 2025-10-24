@@ -154,13 +154,13 @@ class ProfilePage extends Component {
             <button 
               onClick={this.handleSave} 
               className="btn primary"
-              aria-label="Save profile changes"
+              aria-label="Save account changes (branch-A)"
             >
               Save Changes
             </button>
             {this.state.saved && (
               <p className="success" role="alert" aria-live="polite">
-                ✅ Profile updated successfully!
+                ✅ Account information saved successfully (branch-A)
               </p>
             )}
           </div>
